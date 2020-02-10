@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /hero.png
-heroText: blog-demo
-tagline: 博客示例
+heroImage: hero.png
+heroText: 程序人生-Nicholas
+tagline: 有道无术，术尚可求，有术无道，止于术
 actionText: 快速上手 →
 actionLink: /
 features:
