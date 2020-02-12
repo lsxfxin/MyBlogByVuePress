@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: hero.png
+heroImage: /assets/img/hero.png
 heroText: 程序人生-Nicholas
-tagline: 有道无术，术尚可求，有术无道，止于术
+tagline: 积跬步，以至千里
 actionText: 快速上手 →
-actionLink: /
+actionLink: /books/
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
