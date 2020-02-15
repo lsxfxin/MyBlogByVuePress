@@ -18,7 +18,7 @@ module.exports = {
         //最后更新时间
         lastUpdated: 'Last Updated', // string | boolean
         // logo: 'hero.png',//导航栏整体的图标
-        displayAllHeaders: true, // 默认值：false
+        // displayAllHeaders: true, // 默认值：false
         nav: [
             // {text: 'Home', link: '/'},
             {text: '万家之言', link: '/books/'},
@@ -37,7 +37,7 @@ module.exports = {
                     ]},
                     {
                         text: '其他在线文档', items: [
-                        {text: 'Markdown语法文档', link: 'https://www.runoob.com/markdown/md-code.html', target: "_blank", rel: "noopener noreferrer"},
+                        {text: 'Markdown语法文档', link: 'https://www.jianshu.com/p/ebe52d2d468f', target: "_blank", rel: "noopener noreferrer"},
                     ] }
                 ]
             },
@@ -96,8 +96,32 @@ module.exports = {
         sidebar: {
             '/books/': [
                 {
+                    title: '产品',   // 必要的
+                    // sidebarDepth: 2,    // 可选的, 默认值是 1
+                    children: [
+                        {
+                            title: 'NPDP',   // 必要的
+                            sidebarDepth: 2,    // 可选的, 默认值是 1
+                            children: [
+                                '/books/productmanagement/npdp/《敏捷项目管理与PMI-ACP应试指南》',
+                                '/books/projectmanagement/pmp/two',
+                                '/books/projectmanagement/pmp/three'
+                            ]
+                        },
+                        {
+                            title: 'ACP',   // 必要的
+                            sidebarDepth: 2,    // 可选的, 默认值是 1
+                            children: [
+                                '/books/projectmanagement/acp/《敏捷项目管理与PMI-ACP应试指南》',
+                                '/books/projectmanagement/acp/two',
+                                '/books/projectmanagement/acp/three'
+                            ]
+                        }
+                    ]
+                },
+                {
                     title: '项目管理',   // 必要的
-                    sidebarDepth: 2,    // 可选的, 默认值是 1
+                    // sidebarDepth: 2,    // 可选的, 默认值是 1
                     children: [
                         {
                             title: 'PMP',   // 必要的
@@ -119,25 +143,9 @@ module.exports = {
                         }
                     ]
                 },
-                {
-                    title: 'Group 2',
-                    sidebarDepth: 2,    // 可选的, 默认值是 1
-                    children: [/* ... */]
-                }
             ],
 
-            '/bar/': [
-                '', /* /bar/ */
-                'three', /* /bar/three.html */
-                'four'   /* /bar/four.html */
-            ],
 
-            // fallback
-            '/': [
-                '', /* / */
-                'contact', /* /contact.html */
-                'about'    /* /about.html */
-            ]
         }
     }
 }

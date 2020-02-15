@@ -2,7 +2,7 @@
 
 
 <div align=center>
-    <img src="/assets/img/books_projectmanagement_acp_book1.jpg"/>
+    <img src="/MyBlogByVuePress/assets/img/books_projectmanagement_acp_book1.png"/>
 </div> 
 
 ## 基本信息
@@ -74,3 +74,33 @@
 ### 第6章  敏捷计划
 
 ### 第7章  应用敏捷
+
+### 第8章  敏捷教练
+
+### 第9章  敏捷方法论
+#### 极限编程（XP）
+##### 极限编程的12个实践
+1. 计划游戏
+2. 小版本
+3. 比喻
+4. 简单设计
+5. 测试
+6. 重构
+7. 结对编程
+8. 集体代码所有权
+9. 持续集成
+10. 可持续开发速度
+11. 现场客户
+12. 编码标准
+##### 极限编程的角色
+1. XP教练
+2. XP客户
+3. XP程序员
+4. XP跟踪员
+5. XP测试员
+
+
+### 第10章  怎样通过PMI-ACP？认证考试
+
+
+### 第11章  敏捷实战案例精选
