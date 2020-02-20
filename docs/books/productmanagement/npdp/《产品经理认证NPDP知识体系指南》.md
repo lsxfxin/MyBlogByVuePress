@@ -2,7 +2,7 @@
 
 
 <div align=center>
-    <img src="/MyBlogByVuePress/assets/img/books_productmanagement_npdp_book1.jpg"/>
+    <img src="/MyBlogByVuePress/assets/img/books_productmanagement_npdp_book3.png"/>
 </div> 
 
 ## 基本信息

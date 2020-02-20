@@ -21,7 +21,8 @@ module.exports = {
         // displayAllHeaders: true, // 默认值：false
         nav: [
             // {text: 'Home', link: '/'},
-            {text: '万家之言', link: '/books/'},
+            {text: '万家之言', link: '/books/productmanagement/npdp/希赛2019年11月NPDP直播视频课程'},
+            {text: 'Coding', link: '/coding/java/javacore/《On Java 8》'},
             {
                 text: '在线文档',
                 // ariaLabel: 'Language Menu',
@@ -103,20 +104,10 @@ module.exports = {
                             title: 'NPDP',   // 必要的
                             sidebarDepth: 2,    // 可选的, 默认值是 1
                             children: [
-                                '/books/productmanagement/npdp/《敏捷项目管理与PMI-ACP应试指南》',
-                                '/books/projectmanagement/pmp/two',
-                                '/books/projectmanagement/pmp/three'
+                                '/books/productmanagement/npdp/希赛2019年11月NPDP直播视频课程',
+                                '/books/productmanagement/npdp/《产品经理认证NPDP知识体系指南》',
                             ]
                         },
-                        {
-                            title: 'ACP',   // 必要的
-                            sidebarDepth: 2,    // 可选的, 默认值是 1
-                            children: [
-                                '/books/projectmanagement/acp/《敏捷项目管理与PMI-ACP应试指南》',
-                                '/books/projectmanagement/acp/two',
-                                '/books/projectmanagement/acp/three'
-                            ]
-                        }
                     ]
                 },
                 {
@@ -144,8 +135,45 @@ module.exports = {
                     ]
                 },
             ],
-
-
+            '/coding/': [
+                {
+                    title: 'Java',   // 必要的
+                    // sidebarDepth: 2,    // 可选的, 默认值是 1
+                    children: [
+                        {
+                            title: 'Java核心基础',   // 必要的
+                            sidebarDepth: 2,    // 可选的, 默认值是 1
+                            children: [
+                                '/coding/java/javacore/《On Java 8》',
+                            ]
+                        },
+                    ]
+                },
+                {
+                    title: '项目管理',   // 必要的
+                    // sidebarDepth: 2,    // 可选的, 默认值是 1
+                    children: [
+                        {
+                            title: 'PMP',   // 必要的
+                            sidebarDepth: 2,    // 可选的, 默认值是 1
+                            children: [
+                                '/coding/projectmanagement/pmp/one',
+                                '/coding/projectmanagement/pmp/two',
+                                '/coding/projectmanagement/pmp/three'
+                            ]
+                        },
+                        {
+                            title: 'ACP',   // 必要的
+                            sidebarDepth: 2,    // 可选的, 默认值是 1
+                            children: [
+                                '/coding/projectmanagement/acp/《敏捷项目管理与PMI-ACP应试指南》',
+                                '/coding/projectmanagement/acp/two',
+                                '/coding/projectmanagement/acp/three'
+                            ]
+                        }
+                    ]
+                },
+            ],
         }
     }
 }
