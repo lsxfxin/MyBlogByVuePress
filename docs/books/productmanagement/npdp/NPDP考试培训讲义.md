@@ -1,12 +1,12 @@
-# 希赛2019年11月NPDP直播视频课程
+# NPDP考试培训讲义
 
 
 <div align=center>
-    <img src="/MyBlogByVuePress/assets/img/books_productmanagement_npdp_book1.png"/>
+    <img src="/MyBlogByVuePress/assets/img/books_productmanagement_npdp_book2.png"/>
 </div> 
 
 基本信息
-- 书名：希赛2019年11月NPDP直播视频课程
+- 书名：NPDP考试培训讲义
 - 作者：希赛网
 - 英文名：
 - 国籍：中国

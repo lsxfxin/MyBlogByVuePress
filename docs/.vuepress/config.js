@@ -21,7 +21,7 @@ module.exports = {
         // displayAllHeaders: true, // 默认值：false
         nav: [
             // {text: 'Home', link: '/'},
-            {text: '万家之言', link: '/books/productmanagement/npdp/希赛2019年11月NPDP直播视频课程'},
+            {text: '万家之言', link: '/books/productmanagement/npdp/《产品经理认证NPDP知识体系指南》'},
             {text: 'Coding', link: '/coding/java/javacore/《On Java 8》'},
             {
                 text: '在线文档',
@@ -104,8 +104,9 @@ module.exports = {
                             title: 'NPDP',   // 必要的
                             sidebarDepth: 2,    // 可选的, 默认值是 1
                             children: [
-                                '/books/productmanagement/npdp/希赛2019年11月NPDP直播视频课程',
                                 '/books/productmanagement/npdp/《产品经理认证NPDP知识体系指南》',
+                                '/books/productmanagement/npdp/希赛2019年11月NPDP直播视频课程',
+                                '/books/productmanagement/npdp/NPDP考试培训讲义',
                             ]
                         },
                     ]
