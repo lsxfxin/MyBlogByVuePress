@@ -149,6 +149,7 @@ module.exports = {
                                 '/coding/thinkingincoding/designrules/dip',
                                 '/coding/thinkingincoding/designrules/srp',
                                 '/coding/thinkingincoding/designrules/isp',
+                                '/coding/thinkingincoding/designrules/lod',
                             ]
                         },
                     ]
