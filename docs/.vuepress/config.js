@@ -148,6 +148,7 @@ module.exports = {
                                 '/coding/thinkingincoding/designrules/ocp',
                                 '/coding/thinkingincoding/designrules/dip',
                                 '/coding/thinkingincoding/designrules/srp',
+                                '/coding/thinkingincoding/designrules/isp',
                             ]
                         },
                     ]
