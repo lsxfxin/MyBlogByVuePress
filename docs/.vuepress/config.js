@@ -151,7 +151,8 @@ module.exports = {
                                 '/coding/thinkingincoding/designrules/isp',
                                 '/coding/thinkingincoding/designrules/lod',
                                 '/coding/thinkingincoding/designrules/lsp',
-                            ]
+                                '/coding/thinkingincoding/designrules/crp',
+                             ]
                         },
                     ]
                 },
