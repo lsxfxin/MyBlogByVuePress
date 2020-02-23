@@ -148,6 +148,7 @@ module.exports = {
                                 '/coding/computerbase/uml/umlbase',
                                 '/coding/computerbase/uml/extends',
                                 '/coding/computerbase/uml/implement',
+                                '/coding/computerbase/uml/association',
                             ]
                         },
                     ]
