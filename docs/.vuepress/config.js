@@ -147,6 +147,7 @@ module.exports = {
                             children: [
                                 '/coding/computerbase/uml/umlbase',
                                 '/coding/computerbase/uml/extends',
+                                '/coding/computerbase/uml/implement',
                             ]
                         },
                     ]
