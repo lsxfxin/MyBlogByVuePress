@@ -150,6 +150,7 @@ module.exports = {
                                 '/coding/computerbase/uml/implement',
                                 '/coding/computerbase/uml/association',
                                 '/coding/computerbase/uml/aggregation',
+                                '/coding/computerbase/uml/composition',
                             ]
                         },
                     ]
