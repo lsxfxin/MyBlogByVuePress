@@ -22,7 +22,7 @@ module.exports = {
         nav: [
             // {text: 'Home', link: '/'},
             {text: '万家之言', link: '/books/productmanagement/npdp/《产品经理认证NPDP知识体系指南》'},
-            {text: 'Coding', link: '/coding/thinkingincoding/designrules/ocp'},
+            {text: 'Coding', link: '/coding/computerbase/uml/umlbase'},
             {
                 text: '在线文档',
                 // ariaLabel: 'Language Menu',
@@ -137,6 +137,20 @@ module.exports = {
                 },
             ],
             '/coding/': [
+                {
+                    title: '计算机基础',   // 必要的
+                    // sidebarDepth: 2,    // 可选的, 默认值是 1
+                    children: [
+                        {
+                            title: 'UML',   // 必要的
+                            sidebarDepth: 2,    // 可选的, 默认值是 1
+                            children: [
+                                '/coding/computerbase/uml/umlbase',
+                                '/coding/computerbase/uml/extends',
+                            ]
+                        },
+                    ]
+                },
                 {
                     title: '编程思想',   // 必要的
                     // sidebarDepth: 2,    // 可选的, 默认值是 1
