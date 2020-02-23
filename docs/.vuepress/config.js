@@ -151,6 +151,7 @@ module.exports = {
                                 '/coding/computerbase/uml/association',
                                 '/coding/computerbase/uml/aggregation',
                                 '/coding/computerbase/uml/composition',
+                                '/coding/computerbase/uml/dependency',
                             ]
                         },
                     ]
