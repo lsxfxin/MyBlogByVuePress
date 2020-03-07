@@ -180,6 +180,13 @@ module.exports = {
                     // sidebarDepth: 2,    // 可选的, 默认值是 1
                     children: [
                         {
+                            title: 'Java生态',   // 必要的
+                            sidebarDepth: 2,    // 可选的, 默认值是 1
+                            children: [
+                                '/coding/java/javaecology/javaecology2019',
+                            ]
+                        },
+                        {
                             title: 'Java核心基础',   // 必要的
                             sidebarDepth: 2,    // 可选的, 默认值是 1
                             children: [
