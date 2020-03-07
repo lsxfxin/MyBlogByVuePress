@@ -219,6 +219,19 @@ module.exports = {
                         }
                     ]
                 },
+                {
+                    title: '随笔感悟',   // 必要的
+                    // sidebarDepth: 2,    // 可选的, 默认值是 1
+                    children: [
+                        {
+                            title: '2020年',   // 必要的
+                            sidebarDepth: 2,    // 可选的, 默认值是 1
+                            children: [
+                                '/books/essay/2020/20200307',
+                            ]
+                        },
+                    ]
+                },
             ],
         }
     }
