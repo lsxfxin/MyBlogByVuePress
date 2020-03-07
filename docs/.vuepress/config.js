@@ -135,6 +135,19 @@ module.exports = {
                         }
                     ]
                 },
+                {
+                    title: '随笔感悟',   // 必要的
+                    // sidebarDepth: 2,    // 可选的, 默认值是 1
+                    children: [
+                        {
+                            title: '2020年',   // 必要的
+                            sidebarDepth: 2,    // 可选的, 默认值是 1
+                            children: [
+                                '/books/essay/2020/20200307',
+                            ]
+                        },
+                    ]
+                },
             ],
             '/coding/': [
                 {
@@ -176,6 +189,19 @@ module.exports = {
                     ]
                 },
                 {
+                    title: '架构设计',   // 必要的
+                    // sidebarDepth: 2,    // 可选的, 默认值是 1
+                    children: [
+                        {
+                            title: 'PMP',   // 必要的
+                            sidebarDepth: 2,    // 可选的, 默认值是 1
+                            children: [
+                                '/coding/architecturdesign/threetiermvc/aboutthreetier',
+                            ]
+                        },
+                    ]
+                },
+                {
                     title: 'Java',   // 必要的
                     // sidebarDepth: 2,    // 可选的, 默认值是 1
                     children: [
@@ -199,43 +225,6 @@ module.exports = {
                             children: [
                                 '/coding/java/t_maven/briefintroduction',
                                 '/coding/java/t_maven/snapshot',
-                            ]
-                        },
-                    ]
-                },
-                {
-                    title: '项目管理',   // 必要的
-                    // sidebarDepth: 2,    // 可选的, 默认值是 1
-                    children: [
-                        {
-                            title: 'PMP',   // 必要的
-                            sidebarDepth: 2,    // 可选的, 默认值是 1
-                            children: [
-                                '/coding/projectmanagement/pmp/one',
-                                '/coding/projectmanagement/pmp/two',
-                                '/coding/projectmanagement/pmp/three'
-                            ]
-                        },
-                        {
-                            title: 'ACP',   // 必要的
-                            sidebarDepth: 2,    // 可选的, 默认值是 1
-                            children: [
-                                '/coding/projectmanagement/acp/《敏捷项目管理与PMI-ACP应试指南》',
-                                '/coding/projectmanagement/acp/two',
-                                '/coding/projectmanagement/acp/three'
-                            ]
-                        }
-                    ]
-                },
-                {
-                    title: '随笔感悟',   // 必要的
-                    // sidebarDepth: 2,    // 可选的, 默认值是 1
-                    children: [
-                        {
-                            title: '2020年',   // 必要的
-                            sidebarDepth: 2,    // 可选的, 默认值是 1
-                            children: [
-                                '/books/essay/2020/20200307',
                             ]
                         },
                     ]
