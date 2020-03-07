@@ -193,6 +193,14 @@ module.exports = {
                                 '/coding/java/javacore/《On Java 8》',
                             ]
                         },
+                        {
+                            title: '开发工具_Maven',   // 必要的
+                            sidebarDepth: 2,    // 可选的, 默认值是 1
+                            children: [
+                                '/coding/java/t_maven/briefintroduction',
+                                '/coding/java/t_maven/snapshot',
+                            ]
+                        },
                     ]
                 },
                 {
