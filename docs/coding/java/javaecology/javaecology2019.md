@@ -50,3 +50,20 @@
 - 独立解决问题的能力
 - 独立自主学习的能力
 
+全栈程序员：
+- 云计算 + 微服务 + 前后端分离 + 大数据 + AI + 区块链
+
+公司发展顺序：
+- 第一阶段（入门期）：搭架子，做项目，微服务架构
+  - 微服务架构还不成熟，还在标准化过程中，ServiceMesh服务网格化，Istio
+- 第二阶段（发展期）：大数据，精准营销
+  - 基于微服务架构BI商业智能大数据解决方案
+  - 计算引擎：Hadoop、Spark
+  - 数据仓库：Hive、ElasticSearch、Hbase + Phoenix
+  - ETL：Spoon、Kettle
+  - 流式计算：Storm、Flink、Blink
+  - 数据可视化：PowerBI
+- 第三阶段：大数据 + AI
+  - AI：TensorFlow
+- 第四阶段：AI + 区块链（BAT）
+ - 区块链：Hyperledger、Ethereum
