@@ -193,10 +193,11 @@ module.exports = {
                     // sidebarDepth: 2,    // 可选的, 默认值是 1
                     children: [
                         {
-                            title: 'PMP',   // 必要的
+                            title: '三层架构+MVC',   // 必要的
                             sidebarDepth: 2,    // 可选的, 默认值是 1
                             children: [
                                 '/coding/architecturdesign/threetiermvc/aboutthreetier',
+                                '/coding/architecturdesign/threetiermvc/aboutmvc',
                             ]
                         },
                     ]
